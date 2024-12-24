@@ -49,12 +49,16 @@ Click the link above or copy it easily: [📋 Copy URL](javascript:void(0);)
 
 ```
 shortify-url-wizard/
-├── views/              # EJS templates (HTML-like files)
-├── public/             # Static assets (CSS, JS, images)
-├── routes/             # Application routes (backend logic)
-├── app.js              # Main server file
-├── package.json        # Project metadata and dependencies
-└── README.md           # This file!
+├── controllers/         # Contains the logic for URL handling (e.g., url.js)
+├── models/              # Database models (e.g., url.js)
+├── node_modules/        # Project dependencies
+├── routes/              # Application routes (e.g., staticRouter.js, url.js)
+├── views/               # EJS templates (e.g., home.ejs)
+├── connect.js           # Database connection setup
+├── index.js             # Main server entry point
+├── package.json         # Project metadata and dependencies
+├── package-lock.json    # Dependency lock file
+└── README.md            # Project documentation
 ```
 
 ---
